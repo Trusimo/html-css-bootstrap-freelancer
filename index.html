@@ -26,7 +26,7 @@
 
     <main>
         <!-- SEZIONE VERDE -->
-        <section class="bg-green text-center">
+        <section class="bg-green text-center padding-sec">
             <div class="container fontwhite">
                 <div class="row">
                     <div class="col-lg-12">
@@ -35,40 +35,74 @@
                         </div>
                         <h1>START BOOTSTRAP</h1>
                     </div>
-                    <div>
-                        stella
+                    <div class="line-star">
+                        <span class="my-hr my-line"></span>
+                        <span class="my-line"></span><i class="fa-solid fa-star"></i></span>
+                        <span class="my-hr my-line"></span>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4 col-lg-4">test</div>
-                    <div class="col-4 col-lg-4">test</div>
-                    <div class="col-4 col-lg-4">test</div>
+                    <div class="col-4 col-lg-4">GRAPHIC ARTIST</div>
+                    <div class="col-4 col-lg-4">WEB DESIGNER</div>
+                    <div class="col-4 col-lg-4">ILLUSTRATOR</div>
                 </div>
             </div>
         </section>
 
         <!-- SEZIONE PORTFOLIO BIANCA -->
-        <div class="container text-center">
-            <h1 class="text-center">PORTFOLIO</h1>
-            <div class="text-center">
-                stella
+        <section class="padding-sec">
+            <div class="container text-center">
+                <h1 class="text-center">PORTFOLIO</h1>
+                <div class="text-center">
+                    <div class="line-star">
+                        <span class="my-hr my-line"></span>
+                        <span class="my-line"></span><i class="fa-solid fa-star"></i></span>
+                        <span class="my-hr my-line"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="img-spacing">
+                            <img class="img-size" src="img/cabin.png">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="img-spacing">
+                            <img class="img-size" src="img/cake.png">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="img-spacing">
+                            <img class="img-size" src="img/circus.png">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="img-spacing">
+                            <img class="img-size" src="img/game.png">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="img-spacing">
+                            <img class="img-size" src="img/safe.png">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="img-spacing">
+                            <img class="img-size" src="img/submarine.png">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-4">Immagini portfolio</div>
-                <div class="col-md-6 col-lg-4">Immagini portfolio</div>
-                <div class="col-md-6 col-lg-4">Immagini portfolio</div>
-                <div class="col-md-6 col-lg-4">Immagini portfolio</div>
-                <div class="col-md-6 col-lg-4">Immagini portfolio</div>
-                <div class="col-md-6 col-lg-4">Immagini portfolio</div>
-            </div>
-        </div>
+        </section>
 
         <!-- SEZIONE ABOUT -->
-        <section class="text-center bg-green fontwhite">
+        <section class="text-center bg-green fontwhite padding-sec">
             <div class="container">
                 <h1>ABOUT</h1>
-                <div>
-                    stella
+                <div class="line-star">
+                    <span class="my-hr my-line"></span>
+                    <span class="my-line"></span><i class="fa-solid fa-star"></i></span>
+                    <span class="my-hr my-line"></span>
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-6">
@@ -78,21 +112,34 @@
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. A placeat ex laudantium consectetur pariatur voluptate sequi porro, necessitatibus ipsam sapiente officiis soluta qui aliquam obcaecati nesciunt optio eius perferendis doloribus?
                     </div>
                 </div>
-                <div class="btn">
-                    download
-                </div>
-            </div>
+                <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
         </section>
 
         <!-- SEZIONE FORM -->
-        <section class="text-center">
+        <section class="padding-sec">
             <div class="container">
-                <h1>CONTACT ME</h1>
-                <div>
-                    stella
-                </div>
-                <div class="placeholder-form">
-                    form
+                <h1 class="text-center">CONTACT ME</h1>
+                <div class="line-star">
+                        <span class="my-hr my-line"></span>
+                        <span class="my-line"></span><i class="fa-solid fa-star"></i></span>
+                        <span class="my-hr my-line"></span>
+                    </div>
+                <div class="padding-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="Name" class="form-control" id="exampleInputName" aria-describedby="NameHelp" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Adress">
+                        </div>
+                        <div class="form-group">
+                            <input type="Phone" class="form-control" id="exampleInputPhone" aria-describedby="PhoneHelp" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <input type="Message" class="form-control padding-msg" id="exampleInputMessage" aria-describedby="MessageHelp" placeholder="Message">
+                        </div>
+                    </form>
+                    <input class="btn btn-primary bg-green" type="submit" value="Send">
                 </div>
             </div>
         </section>
@@ -102,9 +149,24 @@
         <section class="footer-1">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">LOCATION</div>
-                    <div class="col-4">AROUND THE WEB</div>
-                    <div class="col-4">ABOUT FREELANCER</div>
+                    <div class="col-4">
+                        <h5>Location</h5>
+                        <p>2215 John Daniel Drive Clark, MO</p>
+                        <span>54243</span>
+                    </div>
+                    <div class="col-4">
+                        <h5>AROUND THE WEB</h5>
+                        <span class="border-brand"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="border-brand"><i class="fa-brands fa-google-plus-g"></i></span>
+                        <span class="border-brand"><i class="fa-brands fa-twitter"></i></span>
+                        <span class="border-brand"><i class="fa-brands fa-linkedin-in"></i></span>
+                    </div>
+                    <div class="col-4">
+                        <h5>ABOUT FREELANCER</h5>
+                        <p>Freelancer is a free to use, open source Bootstrap theme created
+                            by <span class="color-green"> Start Bootstrap</span>.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -112,7 +174,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright
+                        Copyright <i class="fa-solid fa-copyright"></i> Your Website 2019
                     </div>
                 </div>
             </div>
